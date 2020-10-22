@@ -9,10 +9,6 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyles from './styles/global'
 import * as serviceWorker from './serviceWorker'
 
-const theme = {
-    bg: 'white'
-}
-
 ReactDOM.render(
     <MainProvider>
         <CThemeProvider>

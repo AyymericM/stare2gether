@@ -4,7 +4,7 @@ const CThemeContext = React.createContext('Theme')
 const CThemeConsumer = CThemeContext.Consumer
 
 const initialState = {
-    currentTheme: 'dark',
+    currentTheme: 'light',
     dark: {
         type: 'dark',
         bg: 'black',

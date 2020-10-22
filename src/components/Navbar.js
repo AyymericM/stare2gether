@@ -21,7 +21,6 @@ export default class Navbar extends Component {
                     </containers.navbar>
                 )}
             </CThemeConsumer>
-
         )
     }
 }
